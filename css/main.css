@@ -1,0 +1,214 @@
+
+/*		General CSS		*/
+body{
+	background-color: #FF6600;
+	padding: 0px;
+	margin: 0px;
+}
+   table{border-radius: 25px;
+              background-color: rgb(51, 51, 255);}
+        th{border-radius: 25px;
+           background-color:rgb(102, 102, 255);
+           color: white; }      
+         td{border-radius: 25px;
+            background-color:#CCFFFF; }
+
+h1{font-size:24;font-family:Copperplate Gothic Light;color: #3333FF}
+
+form{color: black;}
+ #back{background-color: rgba(204, 255, 255,0.8);//#CCFFFF;
+          border-radius: 25px;
+          width: 300px;
+          padding: 25px;
+          margin: 0px auto;
+          float: center;}
+
+#block{background: linear-gradient(to bottom, #C2E0FF 0%,#246BB2 100%) ;
+      width:960px;
+      margin:auto;
+      height:100%;
+      border:1px solid #ADAAAA;
+      height: auto; }
+.imb{box-shadow: 10px 10px 5px #000;
+      border-radius: 10px;}
+
+a:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*		Header 		*/
+
+header{
+	width: 100%;
+	height: 90px;
+	z-index: 99;
+	background-color: #41c17d;
+}
+
+header .heading{
+	margin: 20px 100px 0 0;
+}
+
+header nav{
+	margin-top: 50px;
+	}
+
+header nav li{
+	float: left;
+	margin-left: 40px;
+}
+
+header nav li a{
+	color: #fff;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	transition: all .2s linear;
+	
+}
+
+header nav li a:hover,
+header nav li a:focus{
+	text-decoration: none;
+	color: #484848;
+	font-size: 24px;
+}
+
+/*		Hero section 		*/
+
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	/*background: url('img/hero.jpg') no-repeat fixed center center;*/
+	/*background-size: cover;*/
+}
+
+.hero .caption{
+	position: absolute;
+	margin-left: 80px;
+	color: white;
+	top: 50%;
+	transform:translate(0,-50%);
+	
+}
+
+.hero .caption h1{
+	color: white;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 38px;
+	color: black;
+	font-weight: bold;
+}
+
+.hero .caption p{
+	color: white;
+	font-style: bolder;
+	color: white;
+	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	line-height: 30px;
+	margin: 15px 0 35px 0;
+	text-align: justify;
+}
+
+
+/*		About section 		*/
+
+.about{background: linear-gradient(to bottom, #C2E0FF 0%,#246BB2 100%) ;
+	padding: 50px 0;
+}
+
+.about .pic{
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+
+.about .pic img{
+	width: 240px;
+	height: auto;
+}
+
+.about .features_list{
+	margin-left: 10px;
+}
+.about .features_list h1{color: white;}
+.about .features_list p{
+	
+	color: white;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+/*		App features 		*/
+
+.app_features{
+	width: 960px;
+	padding: 10px 0 20px 0;
+	background-color: #41c17d;
+	
+}
+
+.app_features h1{
+	color: white;
+}
+
+.app_features p{
+	color: #e0f7eb;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 30px 0 0 0;
+	line-height: 28px;
+}
+
+.app_features .details{
+	margin-bottom: 0px;
+}
+
+
+
+/*		Subscription section 		*/
+
+.sub_box{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.sub_box .cta_text {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin-bottom:0px;
+}
+
+
+/*		Footer 		*/
+
+
+
+
+#copy{
+	background-color: black;
+	color: white;
+	padding: 50px 0;
+	text-align: center;
+	margin:0px;
+}
+
+#copy:hover{
+	font-size: 15pt;
+	transition:1s;
+	color: white;
+}
+
+
+
+
+
+
